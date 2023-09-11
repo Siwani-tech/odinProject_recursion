@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    
+}
+
+.fibonacci,
+.mergeSort_container {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   
+}
+
+#fibb_hearder{
+    font-family: 'Nanum Brush Script', cursive; 
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    border: none;
+	text-align: center;
+	color: white;
+	background-blend-mode: lighten;;
+    margin-top: 30px;
+  
+}
+
+#calculateButton{
+   justify-content: center;
+    height: 9vh;
+    width: 20%;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+#mergeSortButton{
+    justify-content: center;
+    height: 9vh;
+    width: 20%;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+input[type="text"]{
+    background-color: rgb(211, 200, 200);
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+input[type="text"]:hover{
+   border-color:chocolate;
+}
+
+#output {
+	text-align: center;
+	max-width: 600px;
+	margin: auto;
+}
+
+#mergeOutput{
+    text-align: center;
+	max-width: 600px;
+	margin: auto;
+}
+
+.fibonacci {
+    background-color: rgb(243, 99, 243); 
+}
+
+.mergeSort_container {
+    background-color: rgb(255, 105, 180); 
+}
+
+#merge_hearder{
+    font-family: 'Nanum Brush Script', cursive; 
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* font-family: 'Comic Neue', cursive;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Raleway', sans-serif; */
